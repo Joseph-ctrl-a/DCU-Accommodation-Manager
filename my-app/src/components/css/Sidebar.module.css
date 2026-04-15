@@ -1,0 +1,154 @@
+.sidebar {
+  width: 244px;
+  min-height: 100vh;
+  background: #09131f;
+  border-right: 1px solid rgba(201, 162, 39, 0.08);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.brand {
+  padding: 22px 22px 18px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.06);
+}
+
+.brandInner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoBox {
+  width: 34px;
+  height: 34px;
+  background: linear-gradient(135deg, #c9a227, #e8c56a);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #07101e;
+}
+
+.brandTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #e8f0ff;
+  line-height: 1.2;
+}
+
+.brandSub {
+  font-size: 10.5px;
+  color: #2a4460;
+  letter-spacing: 0.4px;
+}
+
+.nav {
+  flex: 1;
+  padding: 10px;
+}
+
+.navSection {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  color: #1e3a52;
+  padding: 12px 10px 6px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  transition: all 0.15s;
+  font-size: 13.5px;
+  color: #4a6a8a;
+}
+
+.itemActive {
+  background: rgba(201, 162, 39, 0.1);
+  color: #c9a227;
+  font-weight: 500;
+}
+
+.user {
+  border-top: 1px solid rgba(201, 162, 39, 0.06);
+  padding: 14px 12px;
+}
+
+.userRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 9px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(201, 162, 39, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #c9a227;
+  flex-shrink: 0;
+}
+
+.userInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.userName {
+  font-size: 13px;
+  font-weight: 500;
+  color: #c8daea;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.userId {
+  font-size: 11px;
+  color: #2a4460;
+}
+
+.logoutBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #2e4a62;
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  transition: color 0.15s;
+}
+
+.navLabel {
+  flex: 1;
+}
+
+.navBadge {
+  background: #c9a227;
+  color: #07101e;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+}

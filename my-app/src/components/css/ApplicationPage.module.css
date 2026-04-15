@@ -1,0 +1,217 @@
+.wrapper {
+  max-width: 620px;
+}
+
+.stepRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.stepDivider {
+  flex: 1;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  margin: 0 12px;
+}
+
+.stepCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+}
+
+.stepCircle.done {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+.stepCircle.active {
+  background: rgba(201, 162, 39, 0.14);
+  border-color: #c9a227;
+  color: #c9a227;
+}
+
+.stepCircle.idle {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #3a5a78;
+}
+
+.stepLabel {
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.stepLabel.done {
+  color: #4ade80;
+  font-weight: 400;
+}
+.stepLabel.active {
+  color: #c9a227;
+  font-weight: 500;
+}
+.stepLabel.idle {
+  color: #3a5a78;
+  font-weight: 400;
+}
+
+.stepItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ── Step headings ── */
+.stepTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e8f0ff;
+  margin-bottom: 22px;
+}
+
+/* ── Form grid ── */
+.fieldGrid {
+  display: grid;
+  gap: 16px;
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* ── Room type picker ── */
+.roomTypeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.roomTypeOption {
+  border-radius: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: 1px solid rgba(201, 162, 39, 0.14);
+  background: transparent;
+}
+
+.roomTypeOption.selected {
+  border-color: #c9a227;
+  background: rgba(201, 162, 39, 0.07);
+}
+
+.roomTypeLabel {
+  font-size: 13.5px;
+  color: #8aa8c0;
+  font-weight: 400;
+}
+
+.roomTypeLabel.selected {
+  color: #c9a227;
+  font-weight: 500;
+}
+
+/* ── Step footer buttons ── */
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.footerSpread {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+/* ── Review table ── */
+.reviewTable {
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 10px;
+  padding: 4px 16px;
+  margin-bottom: 20px;
+}
+
+.reviewRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.reviewKey {
+  font-size: 12.5px;
+  color: #3a5a78;
+}
+
+.reviewValue {
+  font-size: 13px;
+  color: #a8c0d6;
+  max-width: 280px;
+  text-align: right;
+}
+
+/* ── Fee notice ── */
+.feeNotice {
+  background: rgba(201, 162, 39, 0.06);
+  border: 1px solid rgba(201, 162, 39, 0.15);
+  border-radius: 10px;
+  padding: 13px 16px;
+  margin-bottom: 22px;
+  font-size: 13px;
+  color: #a88c3a;
+  line-height: 1.6;
+}
+
+.feeAmount {
+  color: #c9a227;
+}
+
+/* ── Success screen ── */
+.successWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 340px;
+  text-align: center;
+}
+
+.successIcon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.successTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #e8f0ff;
+  margin-bottom: 8px;
+}
+
+.successSub {
+  font-size: 14px;
+  color: #3a5a78;
+  max-width: 400px;
+  margin-bottom: 26px;
+}

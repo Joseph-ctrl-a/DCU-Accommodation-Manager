@@ -1,0 +1,203 @@
+/* ── Stats row ── */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.statLabel {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #3a5a78;
+  margin-bottom: 10px;
+}
+
+.statValue {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* ── Transaction table ── */
+.tableTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e8f0ff;
+  margin-bottom: 18px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tdBase {
+  padding: 13px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.tdRef {
+  font-size: 11.5px;
+  color: #2e4a62;
+  font-family: monospace;
+}
+
+.tdMain {
+  font-size: 13.5px;
+  color: #c8daea;
+}
+
+.tdMuted {
+  font-size: 12.5px;
+  color: #5a7a9a;
+}
+
+.tdAmount {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e8f0ff;
+}
+
+.tableRow:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* ── Modal overlay ── */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 16, 30, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+/* ── Payment modal ── */
+.modalBox {
+  background: #0d1b2e;
+  border: 1px solid rgba(201, 162, 39, 0.22);
+  border-radius: 18px;
+  padding: 32px;
+  width: 420px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.modalTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e8f0ff;
+}
+
+.modalCloseBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #3a5a78;
+  display: flex;
+}
+
+.methodGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.methodOption {
+  border-radius: 9px;
+  padding: 12px 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s;
+  border: 1px solid rgba(201, 162, 39, 0.15);
+  background: transparent;
+}
+
+.methodOption.selected {
+  border-color: #c9a227;
+  background: rgba(201, 162, 39, 0.07);
+}
+
+.methodLabel {
+  font-size: 12px;
+  color: #5a7a9a;
+  font-weight: 400;
+}
+
+.methodLabel.selected {
+  color: #c9a227;
+  font-weight: 600;
+}
+
+.totalRow {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 9px;
+  padding: 13px 16px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalLabel {
+  font-size: 13px;
+  color: #5a7a9a;
+}
+
+.totalAmount {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e8f0ff;
+}
+
+.methodFieldWrapper {
+  margin-bottom: 14px;
+}
+
+/* ── Success modal ── */
+.successBox {
+  background: #0d1b2e;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 18px;
+  padding: 44px;
+  width: 360px;
+  text-align: center;
+}
+
+.successIcon {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: rgba(34, 197, 94, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.successTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #e8f0ff;
+  margin-bottom: 8px;
+}
+
+.successSub {
+  font-size: 13.5px;
+  color: #3a5a78;
+  margin-bottom: 24px;
+}

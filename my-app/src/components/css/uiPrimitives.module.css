@@ -1,0 +1,122 @@
+.GhostBtn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 9px;
+  padding: 10px 18px;
+  color: #5a7a9a;
+  font-family: inherit;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.GhostBtn:hover {
+  border-color: rgba(255,255,255,.2);
+  color: #8aa8c0;
+}
+
+/* Card */
+.Card {
+  background: #0d1b2e;
+  border: 1px solid rgba(201,162,39,.1);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+/* GoldBtn */
+.GoldBtn {
+  background: linear-gradient(135deg,#c9a227,#e8c56a);
+  border: none;
+  border-radius: 10px;
+  padding: 11px 20px;
+  color: #07101e;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  transition: opacity .2s, transform .15s;
+}
+
+.GoldBtn:hover {
+  opacity: 0.88;
+}
+
+.GoldBtn:active {
+  transform: scale(0.97);
+}
+
+/* Input */
+.Inp {
+  width: 100%;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(201,162,39,.18);
+  border-radius: 10px;
+  padding: 11px 14px;
+  color: #dce8f5;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  transition: border-color .2s;
+}
+
+/* Select */
+.Sel {
+  width: 100%;
+  background: #0d1b2e;
+  border: 1px solid rgba(201,162,39,.18);
+  border-radius: 10px;
+  padding: 11px 14px;
+  color: #dce8f5;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Textarea */
+.Txta {
+  width: 100%;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(201,162,39,.18);
+  border-radius: 10px;
+  padding: 11px 14px;
+  color: #dce8f5;
+  font-family: inherit;
+  font-size: 14px;
+  min-height: 90px;
+  resize: vertical;
+}
+
+/* Label */
+.Lbl {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  color: #3a5a78;
+  margin-bottom: 8px;
+}
+
+/* TH */
+.TH {
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #2e4a62;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+  white-space: nowrap;
+}
+
+/* PageHeader */
+.PageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
