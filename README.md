@@ -10,27 +10,27 @@ The portal simulates the DCU student accommodation system from a resident's pers
 
 | Portal Page    | BPMN Process                                        |
 | -------------- | --------------------------------------------------- |
-| Login          | P2 — Student Accommodation Account Portal Login     |
-| Application    | P1 — Annual Accommodation Application               |
-| Payments       | P3 — Accommodation Payments & Fee Management        |
-| Guest Requests | P4 — Guest / Visitor Logs                           |
-| Maintenance    | P5 — Maintenance Requests & Accommodation Messaging |
+| Login          | P2  Student Accommodation Account Portal Login     |
+| Application    | P1  Annual Accommodation Application               |
+| Payments       | P3  Accommodation Payments & Fee Management        |
+| Guest Requests | P4  Guest / Visitor Logs                           |
+| Maintenance    | P5  Maintenance Requests & Accommodation Messaging |
 
 ## Features
 
-- **Authentication** — Email validation, SSO button, loading state
-- **Dashboard** — Live stats, recent transactions, room details, ticket overview
-- **Application** — Three-step form with room type selector and review screen
-- **Payments** — Transaction history, payment modal with method selection, success confirmation
-- **Guest Requests** — Registration form with policy enforcement, live guest log
-- **Maintenance** — Ticket submission with urgency classification, colour-coded ticket list
+- **Authentication**  Email validation, SSO button, loading state
+- **Dashboard** Live stats, recent transactions, room details, ticket overview
+- **Application** Three-step form with room type selector and review screen
+- **Payments** Transaction history, payment modal with method selection, success confirmation
+- **Guest Requests** Registration form with policy enforcement, live guest log
+- **Maintenance** Ticket submission with urgency classification, colour-coded ticket list
 
 ## Tech Stack
 
 - React 18
 - CSS Modules
 - Lucide React (icons)
-- Google Fonts — Playfair Display, DM Sans
+- Google Fonts Playfair Display, DM Sans
 
 ## Project Structure
 
